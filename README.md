@@ -1,7 +1,7 @@
 # SudokuSolver
 This program uses the backtracking algorithm to solve Sudoku boards.
 
-Followed @techwithtim 's tutorial to create program.
+Followed @techwithtim's tutorial to create program and GUI!
 
 # Instructions
 Download the solve.py file and enter your Sudoku board. 0's are equivalent to empty spaces.
