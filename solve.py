@@ -11,7 +11,7 @@ board = [
 ]
 
 def solve(sudoku):
-    found = find_empty(sudoku)
+    found = find_blank(sudoku)
     if not found:
         return True
     else:
@@ -67,7 +67,7 @@ def print_board(sudoku):
                 print(str(sudoku[r][c]) + " ", end="")
 
 
-def find_empty(sudoku):
+def find_blank(sudoku):
     for r in range(len(sudoku)):
         for c in range(len(sudoku[0])):
             if sudoku[r][c] == 0:
