@@ -2,7 +2,7 @@
 This program uses the backtracking algorithm to solve Sudoku boards.
 
 Initially used @techwithtim's tutorial on Backtracking Algorithm! 
-Increased efficency and memory usage by removing the testing of already invalid options from the program. 
+Increased efficiency and memory usage by removing the testing of already invalid options from the program. 
 
 # Instructions
 Download the solve.py file and enter your Sudoku board in the variable 'board'. 0's are equivalent to empty spaces.
